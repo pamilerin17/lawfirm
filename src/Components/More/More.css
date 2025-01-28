@@ -1,0 +1,123 @@
+/* Section Header */
+.mo {
+ text-align: center;
+ margin: 2rem 0;
+}
+
+.mo span {
+ font-size: 1.5rem;
+ font-weight: bold;
+ color: rgb(179, 139, 87);
+ display: block;
+ margin-bottom: 0.5rem;
+}
+
+.mo h2 {
+ font-size: 2.5rem;
+ color: #333;
+}
+
+/* Expertise Grid */
+.expert {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ gap: 1.5rem;
+ padding: 2rem;
+}
+
+/* Expertise Card */
+.expo {
+ background: #fff;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ padding: 1.5rem;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+ text-align: center;
+}
+
+.expo:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon Styling */
+.expo svg {
+ font-size: 2rem;
+ color: rgb(118, 83, 38);
+ margin-bottom: 1rem;
+}
+
+/* Text Styling */
+.expo h2 {
+ font-size: 1.5rem;
+ color: #333;
+ margin-bottom: 0.5rem;
+}
+
+.expo h1 {
+ font-size: 1rem;
+ color: #555;
+ line-height: 1.6;
+ margin-bottom: 1rem;
+}
+
+/* Learn More Link */
+.expo a {
+ display: inline-block;
+ margin-top: 1rem;
+ padding: 0.5rem 1rem;
+ color: #fff;
+ background-color: rgb(134, 105, 67);
+ border-radius: 5px;
+ text-decoration: none;
+ font-size: 0.9rem;
+ transition: background-color 0.3s ease;
+}
+
+.expo a:hover {
+ background-color: rgb(169, 130, 78);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+ .mo h2 {
+  font-size: 2rem;
+ }
+
+ .expo {
+  padding: 1rem;
+ }
+
+ .expo h2 {
+  font-size: 1.3rem;
+ }
+
+ .expo h1 {
+  font-size: 0.9rem;
+ }
+
+ .expo a {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+ }
+}
+
+@media screen and (max-width: 480px) {
+ .mo h2 {
+  font-size: 1.8rem;
+ }
+
+ .expo h2 {
+  font-size: 1.2rem;
+ }
+
+ .expo h1 {
+  font-size: 0.85rem;
+ }
+
+ .expo a {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+ }
+}

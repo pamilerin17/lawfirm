@@ -1,0 +1,108 @@
+/* Section Header */
+.hap {
+ text-align: center;
+ margin: 2rem 0;
+}
+
+.hap span {
+ font-size: 1.5rem;
+ font-weight: bold;
+ color: rgb(147, 106, 51);
+ display: block;
+ margin-bottom: 0.5rem;
+}
+
+.hap h2 {
+ font-size: 2.5rem;
+ color: #333;
+}
+
+/* Client Card Container */
+.cli1 {
+ background: #fff;
+ border: 1px solid #ddd;
+ padding: 1.5rem;
+ border-radius: 8px;
+ max-width: 400px;
+ margin: 1rem auto;
+ text-align: center;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cli1:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Text Styling */
+.cli1 p {
+ font-size: 1rem;
+ color: #555;
+ line-height: 1.6;
+ margin-bottom: 1rem;
+}
+
+/* Image Styling */
+.cli1 img {
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+ margin: 1rem 0;
+ object-fit: cover;
+}
+
+/* Name Styling */
+.cli1 h1 {
+ font-size: 1.2rem;
+ color: #333;
+ font-weight: bold;
+ margin-top: 0.5rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+ .hap h2 {
+  font-size: 2rem;
+ }
+
+ .cli1 {
+  padding: 1rem;
+ }
+
+ .cli1 p {
+  font-size: 0.95rem;
+ }
+
+ .cli1 img {
+  width: 70px;
+  height: 70px;
+ }
+
+ .cli1 h1 {
+  font-size: 1rem;
+ }
+}
+
+@media screen and (max-width: 480px) {
+ .hap h2 {
+  font-size: 1.8rem;
+ }
+
+ .cli1 {
+  padding: 0.8rem;
+ }
+
+ .cli1 p {
+  font-size: 0.9rem;
+ }
+
+ .cli1 img {
+  width: 60px;
+  height: 60px;
+ }
+
+ .cli1 h1 {
+  font-size: 0.9rem;
+ }
+}
