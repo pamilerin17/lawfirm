@@ -1,0 +1,35 @@
+/* Services.css */
+
+/* Responsive Container */
+.servi {
+ background: rgb(167, 140, 105);
+ min-height: 20vh;
+ display: flex;
+ align-items: start;
+ justify-content: start;
+ text-align: start;
+ padding: 20px;
+ color: white;
+ font-weight: bolder;
+ font-size: .2rem;
+}
+
+
+.servi h2 {
+ font-size: 2rem;
+ margin-bottom: 10px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+ .servi {
+  width: 90%;
+  padding: 20px;
+ }
+
+ .servi h2{
+  font-size: 1.5rem;
+ }
+
+}

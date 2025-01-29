@@ -1,0 +1,55 @@
+/* Practice Section Styling */
+.prac {
+ background: rgb(167, 140, 105);
+ color: white;
+ text-align: center;
+ padding: 80px 20px;
+ position: relative;
+}
+
+/* Dark Overlay for Better Text Visibility */
+.prac::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: rgba(0, 0, 0, 0.6);
+ z-index: 1;
+}
+
+/* Practice Title */
+.prac h2 {
+ font-size: 2.5rem;
+ font-weight: bold;
+ position: relative;
+ z-index: 2;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+ .prac h2 {
+  font-size: 2rem;
+ }
+}
+
+@media (max-width: 768px) {
+ .prac {
+  padding: 60px 15px;
+ }
+
+ .prac h2 {
+  font-size: 1.8rem;
+ }
+}
+
+@media (max-width: 480px) {
+ .prac {
+  padding: 50px 10px;
+ }
+
+ .prac h2 {
+  font-size: 1.5rem;
+ }
+}

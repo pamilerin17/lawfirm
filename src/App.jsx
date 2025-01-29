@@ -7,6 +7,8 @@ import Happy from './Components/Happy/Happy'
 import More from './Components/More/More'
 import Let from './Components/Let/Let'
 import Footer from './Components/Footer/Footer'
+import Practice from './Components/Practice/Practice';
+import Services from './Components/Services/Services'
 import './App.css'
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<><Body/><Areas/><Happy/><More/><Let/></>}/>
+        <Route path='/Practice' element={<><Practice/><Areas/><More/><Let/></>} />
+        <Route path='/Services' element={<><Services/><Happy/><Let/></>}/>
       </Routes>
       <Footer/>
     </Router>

@@ -22,8 +22,8 @@ function Header() {
         </div>
          <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
         <Link to='/'>Home</Link>
-        <Link to='/Practice Areas'>Practice Areas</Link>
-        <Link to='/Service'>Services</Link>
+        <Link to='/Practice'>Practice Areas</Link>
+        <Link to='/Services'>Services</Link>
         <Link to='/Contact'>Contact</Link>
        </div>
 
