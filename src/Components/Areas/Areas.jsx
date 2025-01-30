@@ -2,26 +2,38 @@
 import './Areas.css'
 import { BsBriefcase } from "react-icons/bs";
 import CountUp from 'react-countup';
+import {motion} from 'framer-motion'
+import { fadeIn } from '../../Variants';
 
 function Areas() {
   return (
     <div>
       <div className="our">
-       <div className="oor">
+       <motion.div
+       variants={fadeIn('up', 0.2)}
+             initial='hidden'
+             whileInView={'show'}
+             viewport={{once: false, amount: 0.7}}
+       className="oor">
         <h2>Our Practice Areas</h2>
         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in.
 
 Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 <button>Learn More</button>
-       </div>
+       </motion.div>
        <div className="people">
-        <div className="pep">
+        <motion.div
+         variants={fadeIn('up', 0.2)}
+             initial='hidden'
+             whileInView={'show'}
+             viewport={{once: false, amount: 0.7}}
+        className="pep">
            <BsBriefcase/> <h2>Banking and Finance Law</h2> <p>Far far away, behind the mountains, far feom the countries</p>
         <BsBriefcase/> <h2>Commercial Law</h2> <p>Far far away, behind the mountains, far feom the countries</p>
         <BsBriefcase/> <h2>Co-operate Law</h2> <p>Far far away, behind the mountains, far feom the countries</p>
         <BsBriefcase/> <h2>Criminal Law</h2> <p>Far far away, behind the mountains, far feom the countries</p>
         <a href="/Practice Areas">Learn More</a>
-        </div>
+        </motion.div>
        </div>
        <div className="count">
         <span>50 Years</span> of <br />Experience in Various Cases

@@ -3,7 +3,7 @@
 // import { FaFacebook } from 'react-icons/fa'
 // import { FaInstagram } from 'react-icons/fa'
 // import { FaLinkedin } from "react-icons/fa";
-// import { MdCopyright } from "react-icons/md";
+import { MdCopyright } from "react-icons/md";
 import './Footer.css'
 function Footer() {
   return (
@@ -15,6 +15,8 @@ function Footer() {
         <h2>Practice Area</h2>
         <h2>Services</h2>
         <h2>Attorney</h2>
+        <h2>About Us</h2>
+        <h2>Contact Us</h2>
         <h2>Terms & Privacy</h2>
        </div>
        <div className="two">
@@ -33,13 +35,12 @@ function Footer() {
         <h2>Prosecution</h2>
        </div>
        <div className="four">
-        <span>Contact</span>
+        <span>Contact :</span>
         <p>123 Allen Avenue</p>
         <p>+234 678 0972 123</p>
         <p>info@lawfirm.com</p>
-        {/* <p>Connect</p>
-        <FaFacebook/><FaLinkedin/><FaInstagram/><FaTwitter/>
-         <p>Copyright <MdCopyright/>2025</p> */}
+        {/* <p>Connect</p>  <FaFacebook/><FaLinkedin/><FaInstagram/><FaTwitter/> */}
+         <p>Copyright <MdCopyright/>2025</p>
        </div>
       </div>
 

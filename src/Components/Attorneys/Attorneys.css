@@ -1,0 +1,76 @@
+/* Attorneys.css */
+
+/* Main Container */
+.attorneys-container {
+ padding: 50px 20px;
+ background-color: #f8f9fa;
+ text-align: center;
+}
+
+/* Header */
+.att-header h2 {
+ font-size: 2rem;
+ font-weight: bold;
+ margin-bottom: 30px;
+ color: #333;
+}
+
+/* Grid Layout */
+.att-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ gap: 20px;
+ justify-content: center;
+}
+
+/* Individual Attorney Card */
+.att-card {
+ background: white;
+ border-radius: 10px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ padding: 20px;
+ text-align: center;
+ transition: transform 0.3s ease-in-out;
+}
+
+.att-card:hover {
+ transform: translateY(-5px);
+}
+
+/* Image Styling */
+.att-card img {
+ width: 100%;
+ max-width: 180px;
+ border-radius: 50%;
+ margin-bottom: 15px;
+}
+
+/* Text Styling */
+.att-card p {
+ font-size: 1rem;
+ color: burlywood;
+ line-height: 1.5;
+}
+.att-card h1{
+ color: burlywood;
+ font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+ .att-header h2 {
+  font-size: 1.5rem;
+ }
+
+ .att-card {
+  padding: 15px;
+ }
+
+ .att-card img {
+  max-width: 140px;
+ }
+
+ .att-card p {
+  font-size: 0.85rem;
+ }
+}

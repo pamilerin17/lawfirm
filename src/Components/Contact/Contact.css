@@ -1,0 +1,79 @@
+/* Contact.css */
+
+/* Main Container */
+.contact-container {
+ padding: 50px 20px;
+ background-color: #f8f9fa;
+ text-align: center;
+}
+
+/* Header Styling */
+.contact-header h2 {
+ font-size: 2rem;
+ font-weight: bold;
+ color: #333;
+ margin-bottom: 20px;
+}
+
+/* Content Section */
+.contact-content {
+ max-width: 600px;
+ margin: 0 auto;
+ background: white;
+ padding: 30px;
+ border-radius: 10px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph */
+.contact-content p {
+ font-size: 1rem;
+ color: #555;
+ line-height: 1.6;
+ margin-bottom: 15px;
+}
+
+/* Contact Info */
+.contact-info p {
+ font-size: 1rem;
+ color: #333;
+ margin: 5px 0;
+}
+
+/* Button Styling */
+.contact-button {
+ background-color: #007bff;
+ color: white;
+ border: none;
+ padding: 10px 20px;
+ font-size: 1rem;
+ cursor: pointer;
+ border-radius: 5px;
+ margin-top: 10px;
+ transition: background 0.3s ease;
+}
+
+.contact-button:hover {
+ background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+ .contact-header h2 {
+  font-size: 1.5rem;
+ }
+
+ .contact-content {
+  padding: 20px;
+ }
+
+ .contact-content p,
+ .contact-info p {
+  font-size: 0.95rem;
+ }
+
+ .contact-button {
+  font-size: 0.9rem;
+  padding: 8px 16px;
+ }
+}

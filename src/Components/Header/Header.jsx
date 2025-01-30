@@ -24,6 +24,8 @@ function Header() {
         <Link to='/'>Home</Link>
         <Link to='/Practice'>Practice Areas</Link>
         <Link to='/Services'>Services</Link>
+        <Link to='/Attorneys'>Attorneys</Link>
+        <Link to='/About'>About Us</Link>
         <Link to='/Contact'>Contact</Link>
        </div>
 

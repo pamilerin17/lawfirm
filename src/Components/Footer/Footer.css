@@ -37,7 +37,7 @@
 /* Contact Section Styling */
 .footer .four {
  display: flex;
- flex-direction: column;
+flex-direction: column;
 }
 
 .footer .four p {
